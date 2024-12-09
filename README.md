@@ -25,8 +25,7 @@ Dados bancários (ex.: chave PIX)
 ## Como Usar
 
 1. Clone este repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/0xC0002/gerarRecibosPDF.git)
 
 2. Instale os requisitos
 Certifique-se de que o Python esteja instalado no sistema. Depois, instale as dependências:
