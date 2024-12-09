@@ -2,7 +2,7 @@
 
 Um sistema simples e eficiente para geração de recibos em formato PDF, ideal para pequenos negócios que precisam organizar suas vendas e gerar recibos de forma profissional.
 
-## FUNCIONALIDADES
+## Funcionalidades
 
 Cadastro de Clientes: Armazene informações dos seus clientes em um banco de dados.
 Cadastro de Produtos: Gerencie produtos disponíveis para venda, com preços definidos.
