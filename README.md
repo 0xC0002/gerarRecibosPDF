@@ -1,8 +1,8 @@
-# gerarRecibosPDF
+# Sistema de geração de recibos em .PDF
 
 Um sistema simples e eficiente para geração de recibos em formato PDF, ideal para pequenos negócios que precisam organizar suas vendas e gerar recibos de forma profissional.
 
-FUNCIONALIDADES
+## FUNCIONALIDADES
 
 Cadastro de Clientes: Armazene informações dos seus clientes em um banco de dados.
 Cadastro de Produtos: Gerencie produtos disponíveis para venda, com preços definidos.
@@ -11,7 +11,7 @@ Aplicação de Descontos: Permite gerar recibos com descontos personalizados.
 Pasta de Recibos: Salva os recibos automaticamente em pastas organizadas por cliente.
 Customização de Logo: Insira a logo da sua empresa no cabeçalho do recibo.
 
-Pré-visualização do Recibo
+## Pré-visualização do Recibo
 
 Aqui está um exemplo de como um recibo gerado pelo sistema pode se parecer:
 
@@ -22,7 +22,7 @@ Produtos adquiridos
 Total a pagar e forma de pagamento
 Dados bancários (ex.: chave PIX)
 
-Como Usar
+## Como Usar
 
 1. Clone este repositório
 git clone https://github.com/seu-usuario/seu-repositorio.git
@@ -46,22 +46,22 @@ Adicionar Produtos: Insira novos produtos no banco de dados.
 Gerar Recibo: Selecione um cliente, produtos e forma de pagamento para criar um recibo.
 Gerar Recibo com Desconto: Adicione um desconto personalizado antes de gerar o recibo.
 
-ESTRUTURA DE PASTAS
+## Estrutura de pastas
 Recibos: Os recibos são salvos em PDF dentro de uma pasta específica para cada cliente.
 Banco de Dados:
 clientes.db: Informações dos clientes.
 produtos.db: Produtos disponíveis para venda.
 
-TECNOLOGIAS UTILIZADAS
+## Tecnologias utilizadas
 Python: Linguagem principal.
 FPDF: Para geração dos arquivos PDF.
 SQLite3: Para armazenamento de dados.
 
-PERSONALIZAÇÕES
+## Personalizações
 Atualize os dados da sua empresa no método dados_empresa da classe Recibo.
 Personalize o menu principal para adicionar funcionalidades adicionais.
 
-🤝 Contribuição
+## Contribuição
 
 Faça um fork do repositório.
 Crie uma nova branch para suas alterações: git checkout -b minha-nova-funcionalidade.
