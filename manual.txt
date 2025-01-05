@@ -1,0 +1,3 @@
+1. Instale os pre-requisitos do README.MD
+2. Altere o caminho para a sua logo no arquivo sistema_recibos.py
+3. Recompile com o pyinstaller (pip install pyinstaller)

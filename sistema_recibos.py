@@ -9,7 +9,7 @@ class Recibo(FPDF):
         self.line_height = 7.5  # espaçamento entre linhas
 
     def header(self):
-        self.image("C:\\Users\\bruno\\source\\repos\\Recibo\\logo.png", 10, 8, 33) # Alterar o seu caminho para a logo
+        self.image("H:\\repos\\gerarRecibosPDF\\logo.png", 10, 8, 33) # Alterar o seu caminho para a logo
         self.set_font("Arial", "B", 16)
         self.cell(0, self.line_height, "NOME DA SUA EMPRESA", 0, 1, "C") # Nome da empresa
         self.set_font("Arial", "B", 12)
@@ -62,6 +62,7 @@ class Recibo(FPDF):
         data_hora_atual = datetime.now().strftime("%d/%m/%Y %H:%M")
         self.cell(0, self.line_height, data_hora_atual, 0, 1, "L")
         self.ln(5)
+
         self.line(10, self.get_y(), 200, self.get_y())  # linha
 
     def dados_cliente(self, cliente, cnpj_cpf, endereco, bairro, uf, cep):
@@ -82,6 +83,7 @@ class Recibo(FPDF):
         self.set_font("Arial", "", 10)
         self.cell(0, self.line_height, f"{endereco}, {bairro}, {uf}. CEP: {cep}", 0, 1, "L")
         self.ln(5)
+
         self.line(10, self.get_y(), 200, self.get_y())  # Linha divisória
 
     def descricao_produtos(self, produtos, total, pagamento):
