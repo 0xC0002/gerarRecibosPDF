@@ -15,12 +15,9 @@ Customização de Logo: Insira a logo da sua empresa no cabeçalho do recibo.
 
 Aqui está um exemplo de como um recibo gerado pelo sistema pode se parecer:
 
-Nome da sua empresa
-Dados da empresa (CNPJ, endereço, telefone, etc.)
-Dados do cliente
-Produtos adquiridos
-Total a pagar e forma de pagamento
-Dados bancários (ex.: chave PIX)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/52057fe1-89a8-48b6-9cb1-1ff2a4b25773">
+</div>
 
 ## Como Usar
 
